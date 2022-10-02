@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.ca589a81.css",
+    "main.css": "/static/css/main.e9940d00.css",
     "main.js": "/static/js/main.93abe8b7.js",
     "static/js/787.5885d501.chunk.js": "/static/js/787.5885d501.chunk.js",
     "static/media/github.png": "/static/media/github.d905f2cf4f47a33ea129.png",
@@ -10,12 +10,12 @@
     "static/media/Metropolis-Black.ttf": "/static/media/Metropolis-Black.b809d6f448e5208370a2.ttf",
     "static/media/behance.png": "/static/media/behance.66aa033b5d93327b4d62.png",
     "index.html": "/index.html",
-    "main.ca589a81.css.map": "/static/css/main.ca589a81.css.map",
+    "main.e9940d00.css.map": "/static/css/main.e9940d00.css.map",
     "main.93abe8b7.js.map": "/static/js/main.93abe8b7.js.map",
     "787.5885d501.chunk.js.map": "/static/js/787.5885d501.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ca589a81.css",
+    "static/css/main.e9940d00.css",
     "static/js/main.93abe8b7.js"
   ]
 }
