@@ -28,6 +28,7 @@ const About = () => {
         return width < 1024? "very-small-top-spacing" : "very-small-right-spacing";
     }
 
+
     return (
         <div className='about' id='about'>
             <div className={stylePicker()}>

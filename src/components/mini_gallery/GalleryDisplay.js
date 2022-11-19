@@ -8,18 +8,17 @@ import PosterSix from '../../images/mini_gallery/6.svg';
 import Email from '../Email';
 
 const GalleryDisplay = () => {
-
     return (
         <div className='vertical-center'>
             <div className='horizontal-display'>
-                <img src={PosterOne} className="gallery-image"/>
-                <img src={PosterThree} className="gallery-image"/>
-                <img src={PosterTwo} className="gallery-image"/>
+                <img src={PosterOne} className="gallery-image" alt="1"/>
+                <img src={PosterThree} className="gallery-image" alt="2"/>
+                <img src={PosterTwo} className="gallery-image" alt="3"/>
             </div>
             <div className='horizontal-display'>
-                <img src={PosterFour} className="gallery-image"/>
-                <img src={PosterFive} className="gallery-image"/>
-                <img src={PosterSix} className="gallery-image"/>
+                <img src={PosterFour} className="gallery-image" alt="4"/>
+                <img src={PosterFive} className="gallery-image" alt="5"/>
+                <img src={PosterSix} className="gallery-image" alt="6"/>
             </div>
 
             <text className='very-small-top-spacing'></text>
