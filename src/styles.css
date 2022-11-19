@@ -451,6 +451,13 @@
   justify-content: center;
 }
 
+.center-vertical-view {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
 .very-small-top-spacing {
   padding-top: 1.5vmin;
 }
@@ -479,4 +486,25 @@
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
+}
+
+.gallery-button {
+  border-radius: 10px;
+  border-width: 0;
+  background-color: var(--blue);
+  font-size: 2.5vmin;
+  text-align: center;
+  cursor: pointer;
+  height: 5vmin;
+  padding-right: 15px;
+  padding-left: 15px;
+  font-family: Metropolis-Black;
+}
+
+.gallery-button:hover {
+  background-color: #3c6ba8;
+}
+
+.gallery-text {
+  color: #FFFFFF;
 }

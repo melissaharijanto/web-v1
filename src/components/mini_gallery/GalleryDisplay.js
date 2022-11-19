@@ -7,7 +7,7 @@ import PosterFive from '../../images/mini_gallery/5.svg';
 import PosterSix from '../../images/mini_gallery/6.svg';
 import Email from '../Email';
 
-const GalleryDisplay = () => {
+const GalleryDisplay = ({width}) => {
     return (
         <div className='vertical-center'>
             <div className='horizontal-display'>
@@ -23,13 +23,16 @@ const GalleryDisplay = () => {
 
             <text className='very-small-top-spacing'></text>
 
+            { width >= 1024? (
             <div className='horizontal-display'>
                 <Email/>
                 <text className='very-small-right-spacing'></text>
-                <button className="behance button">
+                <button className="behance button" onClick={() => window.open("https://www.behance.net/melisara/")}>
                     <text className='button-text'>other works</text>
                 </button>
             </div>
+            ) : null
+            }
         </div>
     );
 }
