@@ -9,7 +9,7 @@ const Behance = () => {
     <button className='behance button' onClick={onClick}>
         <div className='horizontal-display'>
             <div className='icon'>
-                <img src={BehanceImage} alt="Github" className='icon'/>
+                <img src={BehanceImage} alt="Behance" className='icon'/>
             </div>
             <div className='button-text'>
                 <text>behance</text>

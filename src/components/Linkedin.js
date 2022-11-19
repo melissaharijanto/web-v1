@@ -9,7 +9,7 @@ const Linkedin = () => {
     <button className='linkedin button' onClick={onClick}>
         <div className='horizontal-display'>
             <div className='icon'>
-                <img src={LinkedinImage} alt="Github" className='icon'/>
+                <img src={LinkedinImage} alt="LinkedIn" className='icon'/>
             </div>
             <div className='button-text-two'>
                 <text>linkedin</text>

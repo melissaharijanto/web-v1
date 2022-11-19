@@ -30,3 +30,15 @@ code {
   src: local("Metropolis-SemiBold"),
   url("./fonts/Metropolis/Metropolis-SemiBold.ttf") format("truetype");
 }
+
+@font-face {
+  font-family: "Metropolis-LightItalic";
+  src: local("Metropolis-LightItalic"),
+  url("./fonts/Metropolis/Metropolis-LightItalic.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Metropolis-Light";
+  src: local("Metropolis-Light"),
+  url("./fonts/Metropolis/Metropolis-Light.ttf") format("truetype");
+}
