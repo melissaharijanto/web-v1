@@ -38,9 +38,9 @@ const About = () => {
                 <text className={addSpacing()}></text>
                 { width < 1024 ? (
                      <div className='horizontal-display'>
-                     <Email/>
-                     <text className='very-small-right-spacing'></text>
-                 </div>
+                        <Email/>
+                        <text className='very-small-top-spacing'></text>
+                    </div>
                 ) : null }
                 <text className='very-small-top-spacing'></text>
                 { width < 1024 ? <Dropdown/> : <GalleryDisplay width={width}/> }
