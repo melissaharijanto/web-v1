@@ -140,6 +140,15 @@
   width: 26vmin;
 }
 
+.email {
+  background-color: var(--red);
+  width: 30vmin;
+}
+
+.email:hover {
+  background-color: #C54F4F;
+}
+
 .behance:hover {
   background-color: #469f81;
 }
@@ -401,11 +410,9 @@
 
 /* Gallery portfolio */
 
-.gallery-height {
-  height: 80vh;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+.gallery-image {
+  width: min(200px, calc(10vh + 10vw));
+  padding: 5px
 }
 
 .vertical-center {
@@ -422,6 +429,17 @@
   justify-content: center;
 }
 
-.table {
-  margin: auto;
+.very-small-top-spacing {
+  padding-top: 1.5vmin;
+}
+
+.very-small-right-spacing {
+  padding-right: 1.5vmin;
+}
+
+.vertical-display {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
