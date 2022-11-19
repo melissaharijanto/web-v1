@@ -2,6 +2,7 @@ import './App.css';
 import NavigationBar from './components/NavigationBar';
 import About from './pages/About';
 import Intro from './pages/Intro';
+import Projects from './pages/Projects';
 
 function App() {
 
@@ -11,6 +12,7 @@ function App() {
       <div className='content'>
         <Intro/>
         <About/>
+        <Projects/>
       </div>
       
     </div>
