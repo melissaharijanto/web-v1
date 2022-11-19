@@ -8,17 +8,8 @@ const ChatWindow = () => {
         return (
             <text>
                 Hello! My name is Melissa Anastasia Harijanto, and 
-                I am currently a CS undergraduate in NUS.
-            </text>
-        )
-    }
-
-    const passion = () => {
-        return (
-            <text>
-                I am interested in web development. My love for creating
-                applications stemmed from my experience in learning HTML and CSS 
-                in secondary school. 
+                I am currently a CS undergraduate in NUS. My hobby is graphic design and
+                the following posters are my personal projects.
             </text>
         )
     }
@@ -26,21 +17,11 @@ const ChatWindow = () => {
     const now = () => {
         return (
             <text>
-                Now, I am learning ways to make good applications through my
+                I am interested in web development. Now, I am learning ways to make good applications through my
                 Software Engineering modules, and through my projects
                 which are featured below and in my <a href="https://www.github.com/melissaharijanto">
                 GitHub profile
                 </a>.
-            </text>
-        )
-    }
-
-    const hobbies = () => {
-        return (
-            <text>
-                One of my hobbies include graphic design, which is something I have been
-                practicing since I was 12. To the right of the screen are some of my 
-                personal projects.
             </text>
         )
     }
@@ -57,11 +38,7 @@ const ChatWindow = () => {
                     <text className='display-name'>Melissa</text>
                         <ChatBubble text={intro()}/>
                         <div className="chat-bubble-spacing"/>
-                        <ChatBubble text={passion()}/>
-                        <div className="chat-bubble-spacing"/>
                         <ChatBubble text={now()}/>
-                        <div className="chat-bubble-spacing"/>
-                        <ChatBubble text={hobbies()}/>
                     </td>
                 </tr>
             </table>
