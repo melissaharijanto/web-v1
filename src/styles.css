@@ -129,6 +129,7 @@
 .github {
   background-color: var(--red);
   width: 23vmin;
+  transition: background-color 0.5s;
 }
 
 .github:hover {
@@ -138,11 +139,23 @@
 .behance {
   background-color: var(--green);
   width: 26vmin;
+  transition: background-color 0.5s;
 }
 
 .email {
   background-color: var(--red);
-  width: 30vmin;
+  width: 32.5vmin;
+  transition: background-color 0.5s;
+}
+
+.other-works {
+  background-color: var(--green);
+  width: 28vmin;
+  transition: background-color 0.5s;
+}
+
+.other-works:hover {
+  background-color: #469f81;
 }
 
 .email:hover {
@@ -169,6 +182,7 @@
 .linkedin{
   background-color: var(--blue);
   width: 26vmin;
+  transition: background-color 0.5s;
 }
 
 .linkedin:hover {
@@ -260,6 +274,7 @@
   text-decoration: none;
   font-family: Metropolis-SemiBold;
   font-size: 19px;
+  transition: color 0.5s;
 }
 
 @media screen and (max-width: 1024px) {
@@ -434,7 +449,8 @@
 
 .gallery-image {
   width: min(200px, calc(10vh + 10vw));
-  padding: 5px
+  height: auto;
+  padding: 5px;
 }
 
 .vertical-center {
@@ -499,6 +515,7 @@
   padding-right: 15px;
   padding-left: 15px;
   font-family: Metropolis-Black;
+  transition: background-color 0.5s;
 }
 
 .gallery-button:hover {
@@ -508,4 +525,8 @@
 .gallery-text {
   color: #FFFFFF;
   line-height: 4.5vmin;
+}
+
+.skeleton-spacer {
+  padding-right: 5px;
 }

@@ -26,8 +26,9 @@ const Dropdown = () => {
                 <button onClick={handleOpen} className='gallery-button'>
                     <text className='gallery-text'>&#9650; hide my posters</text>
                 </button>
+                <text className='very-small-top-spacing'/>
                 <GalleryDisplay/>
-                <button className="behance button" onClick={() => window.open("https://www.behance.net/melisara/")}>
+                <button className="other-works button" onClick={() => window.open("https://www.behance.net/melisara/")}>
                     <text className='button-text'>other works</text>
                 </button>
             </div>
