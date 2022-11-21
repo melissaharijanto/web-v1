@@ -150,7 +150,7 @@
 
 .other-works {
   background-color: var(--green);
-  width: 28vmin;
+  width: 30vmin;
   transition: background-color 0.5s;
 }
 
@@ -525,8 +525,4 @@
 .gallery-text {
   color: #FFFFFF;
   line-height: 4.5vmin;
-}
-
-.skeleton-spacer {
-  padding-right: 5px;
 }
