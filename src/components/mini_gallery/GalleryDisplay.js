@@ -41,23 +41,6 @@ const GalleryDisplay = ({width}) => {
 
     return (
         <div className='vertical-center'>
-            {/* {loading ? (
-                <GallerySkeleton/>
-            ) : (
-                <>
-                <div className='horizontal-display'>
-                    <img src={PosterOne} className="gallery-image" alt="1"/>
-                    <img src={PosterThree} className="gallery-image" alt="2"/>
-                    <img src={PosterTwo} className="gallery-image" alt="3"/>
-                </div>
-                <div className='horizontal-display'>
-                    <img src={PosterFour} className="gallery-image" alt="4"/>
-                    <img src={PosterFive} className="gallery-image" alt="5"/>
-                    <img src={PosterSix} className="gallery-image" alt="6"/>
-                </div>
-                </>
-            )} */}
-
             <div className='horizontal-display'>
                 {loading ? (
                     <GallerySkeleton/>
@@ -76,9 +59,7 @@ const GalleryDisplay = ({width}) => {
                 ) : (
                     <img src={PosterTwo} className="gallery-image" alt="3"/>
                 )}
-            
             </div>
-            
             <div className='horizontal-display'>
                     
                 {loading4 ? (
@@ -98,8 +79,7 @@ const GalleryDisplay = ({width}) => {
                 ) : (
                     <img src={PosterSix} className="gallery-image" alt="6"/>
                 )}
-
-                </div>
+            </div>
 
             <text className='very-small-top-spacing'></text>
 

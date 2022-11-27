@@ -546,6 +546,7 @@
   padding: 2vmax;
 }
 
+/* phone */
 .project-container-two {
   background-color: white;
   border-width: 1px;
@@ -554,6 +555,18 @@
   border-radius: 20px;
   width: 45vmax;
   height: 45vmax;
+  padding: 2vmax;
+}
+
+/* tablet */
+.project-container-three {
+  background-color: white;
+  border-width: 1px;
+  border-style: solid;
+  border-color: var(--grey);
+  border-radius: 20px;
+  width: 55vmax;
+  height: 55vmax;
   padding: 2vmax;
 }
 
@@ -624,6 +637,27 @@
 .website-button:hover {
   background-color: #C54F4F;
 }
+
+.repo-button {
+  padding-top: 0.5vmin;
+  border: none;
+  border-width: 0px;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.git-repo-img {
+  border-radius: 3px;
+  background-color: var(--grey);
+  opacity: 0.5;
+  transition: 0.5s opacity;
+}
+
+.repo-button:hover .git-repo-img {
+  opacity: 1;
+}
+
+
 .app-techstack {
   padding-top: 2vmin;
   font-family: Metropolis-Bold;

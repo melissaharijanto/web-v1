@@ -32,7 +32,7 @@ const About = () => {
 
 
     return (
-        <div className='about fade-in' id='about'>
+        <div className='about' id='about'>
             <div className={stylePicker()}>
                 <Phone/>
                 <text className={addSpacing()}></text>
