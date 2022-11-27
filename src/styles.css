@@ -494,6 +494,13 @@
   flex-direction: column;
 }
 
+.vertical-display-left-align {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+}
+
 .projects {
   background-color: var(--light-beige);
   min-height: 100vh;
@@ -525,4 +532,105 @@
 .gallery-text {
   color: #FFFFFF;
   line-height: 4.5vmin;
+}
+
+/* Project container */
+.project-container {
+  background-color: white;
+  border-width: 1px;
+  border-style: solid;
+  border-color: var(--grey);
+  border-radius: 20px;
+  width: 37.5vmax;
+  height: 37.5vmax;
+  padding: 2vmax;
+}
+
+.project-container-two {
+  background-color: white;
+  border-width: 1px;
+  border-style: solid;
+  border-color: var(--grey);
+  border-radius: 20px;
+  width: 45vmax;
+  height: 45vmax;
+  padding: 2vmax;
+}
+
+.app-icon {
+  --constant-size: 10vmax;
+  height: var(--constant-size);
+  width: var(--constant-size);
+  border-radius: calc(var(--constant-size) / 4);
+}
+
+.app-heading {
+  font-family: Metropolis-Bold;
+  font-size: min(4.5vmin, 30px);
+  color: var(--grey);
+  padding-bottom: 0.75vmin;
+}
+
+.app-subheading {
+  font-family: Metropolis-SemiBold;
+  font-size: calc(2vmin);
+  color: var(--grey);
+  opacity: 50%;
+  padding-bottom: 0.75vmin;
+}
+
+.app-left-spacing {
+  padding-left: 2vmin;
+}
+
+.get-button {
+  --constant-size: calc(1.75vmin);
+  background-color: var(--blue);
+  color: white;
+  font-family: Metropolis-Black;
+  border-width: 0;
+  padding-top: 0.5vmin;
+  padding-bottom: 0.5vmin;
+  padding-right: 1.5vmin;
+  padding-left: 1.5vmin;
+  border-radius: calc(var(--constant-size) * 2);
+  font-size: var(--constant-size);
+  margin-right: 5px;
+  cursor: pointer;
+  transition: 0.5s background-color;
+}
+
+.get-button:hover {
+  background-color: #3c6ba8;
+}
+
+.website-button {
+  --constant-size: calc(1.75vmin);
+  background-color: var(--red);
+  color: white;
+  font-family: Metropolis-Black;
+  border-width: 0;
+  padding-top: 0.5vmin;
+  padding-bottom: 0.5vmin;
+  padding-right: 1.5vmin;
+  padding-left: 1.5vmin;
+  border-radius: calc(var(--constant-size) * 2);
+  font-size: var(--constant-size);
+  margin-right: 5px;
+  cursor: pointer;
+  transition: 0.5s background-color;
+}
+
+.website-button:hover {
+  background-color: #C54F4F;
+}
+.app-techstack {
+  padding-top: 2vmin;
+  font-family: Metropolis-Bold;
+  font-size: calc(1.5vmin);
+  color: var(--grey);
+  opacity: 40%;
+  padding-bottom: 0.5vmin;
+  text-align: left;
+  line-height: 1.15;
 }
