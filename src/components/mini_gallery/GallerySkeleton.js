@@ -1,4 +1,4 @@
-import { Skeleton } from '@mui/material';
+import { Skeleton, Stack, createTheme, Box } from '@mui/material';
 const GallerySkeleton = () => {
 
     // taken from https://stackoverflow.com/questions/44109314/javascript-calculate-with-viewport-width-height
@@ -17,7 +17,9 @@ const GallerySkeleton = () => {
 
     return (
         <div>
-
+            <Box sx={{ margin: '5px' }}>
+                <Skeleton variant="rectangular" width={skeletonWidth} height={skeletonHeight}/>
+            </Box>
         </div>
     );
 }

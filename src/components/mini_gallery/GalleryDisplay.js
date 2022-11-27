@@ -6,30 +6,100 @@ import PosterFour from '../../images/mini_gallery/4.svg';
 import PosterFive from '../../images/mini_gallery/5.svg';
 import PosterSix from '../../images/mini_gallery/6.svg';
 import Email from '../Email';
+import GallerySkeleton from './GallerySkeleton';
 
 
 const GalleryDisplay = ({width}) => {
 
     const [loading, setLoading] = useState(true);
+    const [loading2, setLoading2] = useState(true);
+    const [loading3, setLoading3] = useState(true);
+    const [loading4, setLoading4] = useState(true);
+    const [loading5, setLoading5] = useState(true);
+    const [loading6, setLoading6] = useState(true);
 
     useEffect(() => {
         setTimeout(() => {
             setLoading(false);
+        }, 2500)
+        setTimeout(() => {
+            setLoading2(false);
+        }, 2750)
+        setTimeout(() => {
+            setLoading3(false);
         }, 3000)
+        setTimeout(() => {
+            setLoading4(false);
+        }, 3250)
+        setTimeout(() => {
+            setLoading5(false);
+        }, 3500)
+        setTimeout(() => {
+            setLoading6(false);
+        }, 3750)
     }, [])
 
     return (
         <div className='vertical-center'>
+            {/* {loading ? (
+                <GallerySkeleton/>
+            ) : (
+                <>
+                <div className='horizontal-display'>
+                    <img src={PosterOne} className="gallery-image" alt="1"/>
+                    <img src={PosterThree} className="gallery-image" alt="2"/>
+                    <img src={PosterTwo} className="gallery-image" alt="3"/>
+                </div>
+                <div className='horizontal-display'>
+                    <img src={PosterFour} className="gallery-image" alt="4"/>
+                    <img src={PosterFive} className="gallery-image" alt="5"/>
+                    <img src={PosterSix} className="gallery-image" alt="6"/>
+                </div>
+                </>
+            )} */}
+
             <div className='horizontal-display'>
-                <img src={PosterOne} className="gallery-image" alt="1"/>
-                <img src={PosterThree} className="gallery-image" alt="2"/>
-                <img src={PosterTwo} className="gallery-image" alt="3"/>
+                {loading ? (
+                    <GallerySkeleton/>
+                ) : (
+                    <img src={PosterOne} className="gallery-image" alt="1"/>    
+                )}
+
+                {loading2 ? (
+                    <GallerySkeleton/>
+                ) : (
+                    <img src={PosterThree} className="gallery-image" alt="2"/>
+                )}
+                
+                {loading3 ? (
+                    <GallerySkeleton/>
+                ) : (
+                    <img src={PosterTwo} className="gallery-image" alt="3"/>
+                )}
+            
             </div>
+            
             <div className='horizontal-display'>
-                <img src={PosterFour} className="gallery-image" alt="4"/>
-                <img src={PosterFive} className="gallery-image" alt="5"/>
-                <img src={PosterSix} className="gallery-image" alt="6"/>
-            </div>
+                    
+                {loading4 ? (
+                    <GallerySkeleton/>
+                ) : (
+                    <img src={PosterFour} className="gallery-image" alt="4"/>
+                )}
+            
+                {loading5 ? (
+                    <GallerySkeleton/>
+                ) : (
+                    <img src={PosterFive} className="gallery-image" alt="5"/>
+                )}
+
+                {loading6 ? (
+                    <GallerySkeleton/>
+                ) : (
+                    <img src={PosterSix} className="gallery-image" alt="6"/>
+                )}
+
+                </div>
 
             <text className='very-small-top-spacing'></text>
 
