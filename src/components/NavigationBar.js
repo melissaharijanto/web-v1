@@ -3,7 +3,9 @@ import Logo from '../images/logo.png';
 const NavigationBar = () => {
     return (
         <div className='topbar'>
-            <img src={Logo} alt="melissaharijanto" className='logo'/>
+            <a href="#intro">
+                <img src={Logo} alt="melissaharijanto" className='logo'/>
+            </a>
             <div className='navigation-bar'>
                 <a href="#about" className='navigation-link'>about</a>
                 <a href="#projects" className='navigation-link'>projects</a>
