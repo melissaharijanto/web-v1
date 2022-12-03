@@ -211,8 +211,6 @@
   background-color: var(--yellow);
   border-radius: 12px;
   height: 7.5vmin;
-  max-width: 45vw;
-  width: calc(12.5vh + 20vw);
   display: flex;
   justify-content: center;
   flex-direction: column;
