@@ -1,32 +1,38 @@
 {
   "files": {
-    "main.css": "/static/css/main.3b08a67c.css",
-    "main.js": "/static/js/main.1aaf4239.js",
+    "main.css": "/static/css/main.2a0637ce.css",
+    "main.js": "/static/js/main.ec320b04.js",
     "static/js/787.5885d501.chunk.js": "/static/js/787.5885d501.chunk.js",
+    "static/media/tracko_banner.svg": "/static/media/tracko_banner.5048cf9329860ee0a4e1f85edfcc8292.svg",
     "static/media/5.svg": "/static/media/5.dcbb6f72240428e02ef4e9241377e8f2.svg",
     "static/media/1.svg": "/static/media/1.0c4dedf83953bfb658d6706621b79d56.svg",
     "static/media/4.svg": "/static/media/4.2f2555d7cec6bf91b0900d5f9047c117.svg",
     "static/media/6.svg": "/static/media/6.ed55db9a9ee2e8225bf30d8f1f1a0706.svg",
     "static/media/2.svg": "/static/media/2.d617a754f1f6b31eb097acdbad7cd945.svg",
     "static/media/3.svg": "/static/media/3.6fbb393581304d935cb2f224dbe2543f.svg",
+    "static/media/isara.svg": "/static/media/isara.c2190b1357c11c10099c9c4997bff6b7.svg",
     "static/media/chat-icon.png": "/static/media/chat-icon.9953eae6f9a5c6b23c49.png",
+    "static/media/travellog.svg": "/static/media/travellog.c2b94d2c57f30d92bf2f48795f956d1a.svg",
     "static/media/logo.png": "/static/media/logo.6c6f62e3eb45cf3b8329.png",
     "static/media/github.png": "/static/media/github.d905f2cf4f47a33ea129.png",
     "static/media/email.png": "/static/media/email.6bd965f134c1c8a04361.png",
     "static/media/linkedin.png": "/static/media/linkedin.18bd049bca8fb271f64a.png",
     "static/media/Metropolis-SemiBoldItalic.ttf": "/static/media/Metropolis-SemiBoldItalic.12536327fc42546c1ff1.ttf",
+    "static/media/Metropolis-Regular.ttf": "/static/media/Metropolis-Regular.3e96c38bc01555998420.ttf",
     "static/media/Metropolis-SemiBold.ttf": "/static/media/Metropolis-SemiBold.6cecad786ead3ee71218.ttf",
     "static/media/Metropolis-LightItalic.ttf": "/static/media/Metropolis-LightItalic.0b3ff2a5683d5c774552.ttf",
+    "static/media/Metropolis-Bold.ttf": "/static/media/Metropolis-Bold.757ca8bef5ee90fd406c.ttf",
     "static/media/Metropolis-Black.ttf": "/static/media/Metropolis-Black.b809d6f448e5208370a2.ttf",
     "static/media/Metropolis-Light.ttf": "/static/media/Metropolis-Light.088fbf5645d535ea6e9c.ttf",
     "static/media/behance.png": "/static/media/behance.66aa033b5d93327b4d62.png",
+    "static/media/tracko.svg": "/static/media/tracko.806b05a99df479e1165c029260c3a7a0.svg",
     "index.html": "/index.html",
-    "main.3b08a67c.css.map": "/static/css/main.3b08a67c.css.map",
-    "main.1aaf4239.js.map": "/static/js/main.1aaf4239.js.map",
+    "main.2a0637ce.css.map": "/static/css/main.2a0637ce.css.map",
+    "main.ec320b04.js.map": "/static/js/main.ec320b04.js.map",
     "787.5885d501.chunk.js.map": "/static/js/787.5885d501.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.3b08a67c.css",
-    "static/js/main.1aaf4239.js"
+    "static/css/main.2a0637ce.css",
+    "static/js/main.ec320b04.js"
   ]
 }
