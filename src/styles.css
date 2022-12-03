@@ -204,7 +204,7 @@
   flex-direction: row;
 }
 
-.intro-subheading{
+.intro-subheading {
   padding-top: 10;
   font-family: Metropolis-SemiBoldItalic;
   font-size: calc(0.7vh + 1vw);
@@ -455,7 +455,7 @@
 /* Gallery portfolio */
 
 .gallery-image {
-  width: min(200px, calc(10vh + 10vw));
+  width: min(200px, calc(9vh + 9vw));
   height: auto;
   padding: 5px;
 }
