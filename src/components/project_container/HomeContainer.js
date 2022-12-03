@@ -1,9 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import NewestProject from './NewestProject';
-import TrackOBanner from '../../images/banners/tracko_banner.svg'
+import TrackOBanner from '../../images/banners/tracko_banner.png'
 import TravelLogLogo from '../../images/project_icon/travellog.svg'
 import IsaraLogo from '../../images/project_icon/isara.svg'
-import HomeSkeleton from './HomeSkeleton';
 
 const HomeContainer = ({newestProjectFunction, appFunctionOne, appFunctionTwo}) => {
 
@@ -64,11 +63,7 @@ const HomeContainer = ({newestProjectFunction, appFunctionOne, appFunctionTwo}) 
                 <text className='app-heading'> Welcome to My Software Projects.</text>
                 <hr/>
                 <text className='app-subheading'>Latest Release</text>
-
-                {loading 
-                    ? <HomeSkeleton/>
-                    : <NewestProject image={TrackOBanner} newestProjectFunction={newestProjectFunction}/>
-                }
+                <NewestProject image={TrackOBanner} newestProjectFunction={newestProjectFunction}/>
                 
                 <text className='app-subheading'>Featured projects by the same developer</text>
                 <div className='horizontal-display'>
