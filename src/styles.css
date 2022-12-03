@@ -550,7 +550,7 @@
   border-style: solid;
   border-color: var(--grey);
   border-radius: 20px;
-  width: 37.5vmax;
+  width: 75vmin;
   height: auto;
   padding: 2.15vmax;
 }
@@ -562,7 +562,7 @@
   border-style: solid;
   border-color: var(--grey);
   border-radius: 20px;
-  width: 46vmax;
+  width: 85vmin;
   height: auto;
   padding: 2.15vmax;
 }
@@ -574,7 +574,7 @@
   border-style: solid;
   border-color: var(--grey);
   border-radius: 20px;
-  width: 55vmax;
+  width: 65vmin;
   height: auto;
   padding: 2.15vmax;
   padding-bottom: 4vmax;
