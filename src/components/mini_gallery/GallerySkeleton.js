@@ -2,7 +2,7 @@ import { Skeleton, Box } from '@mui/material';
 import { vh, vw } from '../../functions/UnitConverter.js'
 const GallerySkeleton = () => {
     
-    var skeletonWidth = Math.min(parseFloat('200px'), vh(10) + vw(10));
+    var skeletonWidth = Math.min(parseFloat('200px'), vh(9) + vw(9));
     var skeletonHeight = 5/4 * skeletonWidth;
 
     return (
