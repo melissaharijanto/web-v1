@@ -6,7 +6,7 @@ import IntroWindow from '../components/IntroWindow';
 import Behance from '../components/Behance';
 const Intro = () => {
     return (
-        <div className='intro'>
+        <div className='intro' id='intro'>
             <div className='padding-horizontal'>
                 <IntroWindow/>
             </div>
