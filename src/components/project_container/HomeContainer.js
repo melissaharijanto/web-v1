@@ -3,18 +3,24 @@ import NewestProject from './NewestProject';
 import TrackOBanner from '../../images/banners/tracko_banner.svg'
 import TravelLogLogo from '../../images/project_icon/travellog.svg'
 import IsaraLogo from '../../images/project_icon/isara.svg'
+import HomeSkeleton from './HomeSkeleton';
 
 const HomeContainer = ({newestProjectFunction, appFunctionOne, appFunctionTwo}) => {
 
     const [width, setWindowWidth] = useState(window.innerWidth);
+    const [loading, setLoading] = useState(true);
 
     const monthArray = ["January", "February", "March", "April", "May", "June", "July", "August", "September",
         "October", "November", "December"];
 
     const dayArray = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
 
+    useEffect(() => {
+        setTimeout(() => {
+            setLoading(false);
+        }, 5000)
+    }, [])
     useEffect(() => { 
-
       updateDimensions();
 
       window.addEventListener("resize", updateDimensions);
@@ -52,13 +58,18 @@ const HomeContainer = ({newestProjectFunction, appFunctionOne, appFunctionTwo}) 
 
     return (
         <div className={stylePicker()}>
-            <div className="left-align">
+            <div className="left-align" id="banner-container">
                 <text className='app-subheading'>{getCurrentDateAndTime()}</text>
                 <br/>
                 <text className='app-heading'> Welcome to My Software Projects.</text>
                 <hr/>
                 <text className='app-subheading'>Latest Release</text>
-                <NewestProject image={TrackOBanner} newestProjectFunction={newestProjectFunction}/>
+
+                {loading 
+                    ? <HomeSkeleton/>
+                    : <NewestProject image={TrackOBanner} newestProjectFunction={newestProjectFunction}/>
+                }
+                
                 <text className='app-subheading'>Featured projects by the same developer</text>
                 <div className='horizontal-display'>
                     <div className='vertical-display-left-align'>
@@ -68,7 +79,7 @@ const HomeContainer = ({newestProjectFunction, appFunctionOne, appFunctionTwo}) 
                         <text className='app-subheading-two full-opacity very-small-top-spacing'>TravelLog</text>
                     </div>
                     <div className='vertical-display-left-align'>
-                        <button className='tra-button' onClick={appFunctionTwo}>
+                        <button className='transparent-button' onClick={appFunctionTwo}>
                             <img src={IsaraLogo} className="app-icon-two"></img>
                         </button>
                         <text className='app-subheading-two full-opacity very-small-top-spacing'>Isara Chatbot</text>
