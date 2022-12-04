@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/static/css/main.e66ce8a4.css",
-    "main.js": "/static/js/main.b1e7e204.js",
+    "main.js": "/static/js/main.ae022d41.js",
     "static/js/787.5885d501.chunk.js": "/static/js/787.5885d501.chunk.js",
-    "static/media/5.svg": "/static/media/5.dcbb6f72240428e02ef4e9241377e8f2.svg",
-    "static/media/1.svg": "/static/media/1.0c4dedf83953bfb658d6706621b79d56.svg",
-    "static/media/4.svg": "/static/media/4.2f2555d7cec6bf91b0900d5f9047c117.svg",
-    "static/media/6.svg": "/static/media/6.ed55db9a9ee2e8225bf30d8f1f1a0706.svg",
-    "static/media/2.svg": "/static/media/2.d617a754f1f6b31eb097acdbad7cd945.svg",
-    "static/media/3.svg": "/static/media/3.6fbb393581304d935cb2f224dbe2543f.svg",
+    "static/media/5.png": "/static/media/5.3d7810b88ec8a624868b.png",
     "static/media/isara.svg": "/static/media/isara.c2190b1357c11c10099c9c4997bff6b7.svg",
+    "static/media/1.png": "/static/media/1.77d4d5b6c1b9c8e4c7dc.png",
+    "static/media/4.png": "/static/media/4.2dda5206d4a01b4dece6.png",
+    "static/media/6.png": "/static/media/6.2c5c08a3325100d4976d.png",
+    "static/media/2.png": "/static/media/2.474fdb5b1150ed077c67.png",
+    "static/media/3.png": "/static/media/3.6c2856fa3d28505fd745.png",
     "static/media/tracko_banner.png": "/static/media/tracko_banner.967d16ebc7588700568a.png",
     "static/media/chat-icon.png": "/static/media/chat-icon.9953eae6f9a5c6b23c49.png",
     "static/media/travellog.svg": "/static/media/travellog.c2b94d2c57f30d92bf2f48795f956d1a.svg",
@@ -28,11 +28,11 @@
     "static/media/tracko.svg": "/static/media/tracko.806b05a99df479e1165c029260c3a7a0.svg",
     "index.html": "/index.html",
     "main.e66ce8a4.css.map": "/static/css/main.e66ce8a4.css.map",
-    "main.b1e7e204.js.map": "/static/js/main.b1e7e204.js.map",
+    "main.ae022d41.js.map": "/static/js/main.ae022d41.js.map",
     "787.5885d501.chunk.js.map": "/static/js/787.5885d501.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e66ce8a4.css",
-    "static/js/main.b1e7e204.js"
+    "static/js/main.ae022d41.js"
   ]
 }
