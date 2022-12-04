@@ -30,6 +30,7 @@
   min-width: 75vw;
   height: 40vh;
   border: 1px solid black;
+  box-shadow: 1vmin 1vmin 0px #FD676775;
 }
 
 .intro-header {
@@ -556,6 +557,7 @@
   width: 75vmin;
   height: auto;
   padding: 2.15vmax;
+  box-shadow: 1vmin 1vmin 0px #589CF675;
 }
 
 /* phone */
@@ -568,6 +570,7 @@
   width: 85vmin;
   height: auto;
   padding: 2.15vmax;
+  box-shadow: 1vmin 1vmin 0px #589CF675;
 }
 
 /* tablet */
@@ -581,6 +584,7 @@
   height: auto;
   padding: 2.15vmax;
   padding-bottom: 4vmax;
+  box-shadow: 1vmin 1vmin 0px #589CF675;
 }
 
 .app-icon {
@@ -828,4 +832,27 @@
 
 .dark-link-color {
   color: #3c6ba8;
+}
+
+.footer {
+  background-color: var(--light-beige);
+  height: 15vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer-text-container {
+  background-color: white;
+  font-size: 1.75vmin;
+  font-family: Metropolis-SemiBold;
+  padding-left: 2.5vmin;
+  padding-right: 2.5vmin;
+  padding-top: 0.5vmin;
+  padding-bottom: 0.5vmin;
+  color: var(--grey);
+  border-radius: 50px;
+  border: solid 0.25vmin var(--blue);
+  box-shadow: 0.5vmin 0.5vmin 0px #FD676775;
 }
