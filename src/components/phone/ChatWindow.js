@@ -19,7 +19,7 @@ const ChatWindow = () => {
         return (
             <text>
                 I am interested in web development. I am currently learning ways to make good applications through my
-                Software Engineering modules, and through my projects which are featured below and in my <a href="https://www.github.com/melissaharijanto">
+                Software Engineering modules, and through my projects which are featured below and in my <a href="https://www.github.com/melissaharijanto" className="dark-link-color">
                 GitHub profile
                 </a>.
             </text>

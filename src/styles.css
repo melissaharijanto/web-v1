@@ -133,7 +133,8 @@
 
 .github {
   background-color: var(--red);
-  width: 23vmin;
+  padding-left: 2vmin;
+  padding-right: 2vmin;
   transition: background-color 0.5s;
 }
 
@@ -143,19 +144,22 @@
 
 .behance {
   background-color: var(--green);
-  width: 26vmin;
+  padding-left: 2vmin;
+  padding-right: 2vmin;
   transition: background-color 0.5s;
 }
 
 .email {
-  background-color: var(--red);
-  width: 32.5vmin;
+  background-color: var(--yellow);
+  padding-left: 2vmin;
+  padding-right: 2vmin;
   transition: background-color 0.5s;
 }
 
 .other-works {
   background-color: var(--green);
-  width: 30vmin;
+  padding-left: 2vmin;
+  padding-right: 2vmin;
   transition: background-color 0.5s;
 }
 
@@ -164,7 +168,7 @@
 }
 
 .email:hover {
-  background-color: #C54F4F;
+  background-color: #927536;
 }
 
 .behance:hover {
@@ -186,7 +190,8 @@
 
 .linkedin{
   background-color: var(--blue);
-  width: 26vmin;
+  padding-left: 2vmin;
+  padding-right: 2vmin;
   transition: background-color 0.5s;
 }
 
@@ -815,4 +820,12 @@
   color: var(--blue);
   font-family: Metropolis-SemiBold;
   font-size: 1.75vmin;
+}
+
+.link-color {
+  color: var(--blue);
+}
+
+.dark-link-color {
+  color: #3c6ba8;
 }
