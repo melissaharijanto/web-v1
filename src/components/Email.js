@@ -12,7 +12,7 @@ const Email = () => {
                 <img src={EmailImage} alt="Github" className='icon'/>
             </div>
             <div className='button-text'>
-                <text>contact me</text>
+                <text>email</text>
             </div>
         </div>
     </button>
