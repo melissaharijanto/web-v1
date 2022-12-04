@@ -1,10 +1,10 @@
 import React, { useState, useEffect } from 'react';
-import PosterOne from '../../images/mini_gallery/1.svg';
-import PosterTwo from '../../images/mini_gallery/2.svg';
-import PosterThree from '../../images/mini_gallery/3.svg';
-import PosterFour from '../../images/mini_gallery/4.svg';
-import PosterFive from '../../images/mini_gallery/5.svg';
-import PosterSix from '../../images/mini_gallery/6.svg';
+import PosterOne from '../../images/mini_gallery/1.png';
+import PosterTwo from '../../images/mini_gallery/2.png';
+import PosterThree from '../../images/mini_gallery/3.png';
+import PosterFour from '../../images/mini_gallery/4.png';
+import PosterFive from '../../images/mini_gallery/5.png';
+import PosterSix from '../../images/mini_gallery/6.png';
 import Email from '../Email';
 import GallerySkeleton from './GallerySkeleton';
 
