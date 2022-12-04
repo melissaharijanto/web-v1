@@ -29,7 +29,7 @@ const Dropdown = () => {
                 <text className='very-small-top-spacing'/>
                 <GalleryDisplay/>
                 <button className="other-works button" onClick={() => window.open("https://www.behance.net/melisara/")}>
-                    <text className='button-text'>other works</text>
+                    <text className='button-text'>visit my gallery</text>
                 </button>
             </div>
         )

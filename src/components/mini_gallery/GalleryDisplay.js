@@ -85,10 +85,8 @@ const GalleryDisplay = ({width}) => {
 
             { width >= 1024? (
             <div className='horizontal-display'>
-                <Email/>
-                <text className='very-small-right-spacing'></text>
                 <button className="other-works button" onClick={() => window.open("https://www.behance.net/melisara/")}>
-                    <text className='button-text'>other works</text>
+                    <text className='button-text'>visit my gallery</text>
                 </button>
             </div>
             ) : null
