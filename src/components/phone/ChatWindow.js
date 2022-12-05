@@ -8,7 +8,7 @@ const ChatWindow = () => {
         return (
             <text>
                 Hello! My name is Melissa Anastasia Harijanto, and 
-                I am currently a CS undergraduate in NUS. My hobby is graphic design and
+                I am currently a CS undergraduate in NUS. I am also a graphic design hobbyist, and
                 the following posters are my personal projects. (Tip: If you are on mobile,
                 click on the 'view my posters' button!)
             </text>
